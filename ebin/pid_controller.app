@@ -1,0 +1,11 @@
+{application,pid_controller,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{pid_controller_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[pid_controller,pid_controller_app,
+                        pid_controller_server,pid_controller_sup,pid_server]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
